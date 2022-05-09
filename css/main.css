@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
+.bground {
+    background-color: rgb(59, 64, 64);
+}
 
 img {
-    max-height: 39rem;
-    border: 1cm;
-    height: auto;
-    width: auto/9; 
-}
+    max-height: 40rem;
+  }
+
+.center {
+    margin: auto;
+  }
