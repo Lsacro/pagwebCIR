@@ -17,6 +17,7 @@ body{
 }
 
 .carousel-inner {
+  resize: horizontal;
   max-height: 39rem;
 }
 
@@ -62,7 +63,7 @@ body{
 }
 
 #local {
-  background-color: #f3f3f3;
+  background-color: #952c2c;
   padding-bottom: 300px;
   display: flex;
   justify-content: center;
@@ -133,3 +134,17 @@ footer p {
   padding: 0 8px;
   color: #f3f3f3;
 }
+
+.bground {
+  background-color: #fbfafa;
+}
+
+img {
+  max-height: 39rem;
+  border: 1cm;
+  height: auto;
+  width: auto/9; 
+} 
+.center {
+  margin: auto;
+} 
