@@ -30,7 +30,7 @@ body{
   }
   .servicio-fila {
     width: 100% !important;
-    text-align: center;
+    
   } 
   #bg-contacto {
     top: -110px;
@@ -148,3 +148,7 @@ img {
 .center {
   margin: auto;
 } 
+
+.txt-justify{
+  text-align: text-justify;
+}
