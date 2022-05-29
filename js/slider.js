@@ -15,7 +15,7 @@ function showSlides() {
 
 function nextSlide(s){
 	if (s=='next'){
-		timeSlide=setTimeout(showSlides, 20000); // Change image every 2 seconds
+		timeSlide=setTimeout(showSlides, waitSlide); // Change image every 2 seconds
 	}else{
 		clearTimeout(timeSlide);
 		showSlides();
@@ -54,13 +54,15 @@ function loadCaptionText(){
 		
 }
 
-let slides = document.getElementsByClassName("mySlides");
-let dotsGroup = document.getElementById('slidePosition');
+let sliderGroup = document.getElementById('slider01');
+let slides = sliderGroup.getElementsByClassName("slideMySlides");
+let dotsGroup = document.getElementById('sliderDots01');
 let dots = dotsGroup.getElementsByTagName('span');
-let captionTxt = document.getElementsByClassName("textSlideCaption");
+let captionTxt = document.getElementsByClassName("slideTextCaption");
 
 let slideIndex = 0;
 let timeSlide = 0;
+let waitSlide = 2500;
 
 loadCaptionText();
 
