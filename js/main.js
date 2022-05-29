@@ -2,8 +2,7 @@
 //Lleno el texto de la pagina WEB
 // ******************************************
 
-{   
-    
+function loadText(){  
     let TituloONG = "Corporación Indígena Rumiñahui";
     let txt = " ";
     
@@ -24,3 +23,6 @@
     
     //let txt = "Centro de Desarrollo INKA WASI";
 }
+
+
+loadText();
