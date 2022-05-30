@@ -2,14 +2,14 @@ function showSlides() {
   let i;
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-	dots[i].classList.remove("dotActive");
-	dots[i].classList.add("dotNotActive");
+	dots[i].classList.remove("sliderDotActive");
+	dots[i].classList.add("sliderDotNotActive");
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].classList.remove("dotNotActive");
-  dots[slideIndex-1].classList.add("dotActive");
+  dots[slideIndex-1].classList.remove("sliderDotNotActive");
+  dots[slideIndex-1].classList.add("sliderDotActive");
   nextSlide("next");
 }
 
@@ -54,15 +54,22 @@ function loadCaptionText(){
 		
 }
 
+function loadNumberText(){
+	for (i=0;i<numberTxt.length;i++){
+		numberTxt[i].innerHTML=(i+1)+"/"+(numberTxt.length);
+	}
+}
+
 let sliderGroup = document.getElementById('slider01');
 let slides = sliderGroup.getElementsByClassName("slideMySlides");
 let dotsGroup = document.getElementById('sliderDots01');
 let dots = dotsGroup.getElementsByTagName('span');
 let captionTxt = document.getElementsByClassName("slideTextCaption");
+let numberTxt = document.getElementsByClassName("slideNumberText");
 
 let slideIndex = 0;
 let timeSlide = 0;
 let waitSlide = 2500;
 
 loadCaptionText();
-
+loadNumberText();
