@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 2400px){
   #local {
     flex-wrap: wrap;
     padding-top: 30px;

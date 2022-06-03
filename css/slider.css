@@ -1,11 +1,36 @@
-* {box-sizing:border-box}
+@media screen and (max-width:2400px){
+  .slideDot {  
+    height: 25px;
+    width: 25px;
+  }
+}
 
-/* Slideshow container */
-/* .slideShow-container { */
-  /* max-width: 1000px; */
-  /* position: relative; */
-  /* margin: auto; */
-/* } */
+@media screen and (max-width:1200px){
+  .slideDot {  
+    height: 30px;
+    width: 30x;
+  }
+}
+
+@media screen and (max-width:800px){
+  .slideDot {  
+    height: 35px;
+    width: 35px;
+  }
+}
+ 
+@media screen and (max-width:600px){
+  .slideDot {  
+    height: 40px;
+    width: 40px;
+  }
+} 
+  
+
+
+
+
+* {box-sizing:border-box}
 
 /* Hide the images by default */
 .slideMySlides {
@@ -59,8 +84,6 @@
 /* The dots/bullets/indicators */
 .slideDot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
   margin: 0 2px;
   border-radius: 50%;
   display: inline-block;
