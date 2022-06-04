@@ -69,7 +69,7 @@ let numberTxt = document.getElementsByClassName("slideNumberText");
 
 let slideIndex = 0;
 let timeSlide = 0;
-let waitSlide = 2500;
+let waitSlide = 5000;
 
 loadCaptionText();
 loadNumberText();
