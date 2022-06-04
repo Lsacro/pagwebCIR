@@ -15,7 +15,7 @@
     <!-- <div class="container-fluid"> -->
     <!-- ENCABEZADO -->
     
-    <div style="overflow: hidden;position: fixed;top: 0;width: 100%;z-index:100;">
+    <div class="top-header">
       
       <div class="cointainer-fluid bg-danger m-0 p-0">
         <div class="cointainer bg-primary">
@@ -54,39 +54,39 @@
       </div>
     </div>
     
-    <div class="fix-section">
+    <div class="main-section">
       <!-- Slide Imagnes -->
-      <div class="container-fluid bground">
+      <div class="container-fluid bg-warning">
         <div class="center col-lg-9" id="slider01">
-          <div class="slideMySlides fadeIn">
-            <div class="slideNumberText fs-4"></div>
-            <img src="./Imagenes/beautiful-view-chimborazo-mountain-ecuador-during-daytime.jpg" class="d-block w-100" alt="slide0">
-            <div class="slideTextCaption fs-3" id="slider01Caption01"></div>
+          <div class="slideMySlides sliderFadeIn">
+            <div class="slideNumberText fs-6"></div>
+            <img src="./Imagenes/beautiful-view-chimborazo-mountain-ecuador-during-daytime.jpg" class="sliderImage" alt="slide0">
+            <div class="slideTextCaption fs-6" id="slider01Caption01"></div>
           </div>
-          <div class="slideMySlides fadeIn">
-            <div class="slideNumberText fs-4"></div>
-            <img src="./Imagenes/chimborazo-volcano-andes-mountains-ecuador.jpg" class="d-block w-100" alt="slide1">
-            <div class="slideTextCaption fs-3" id="slider01Caption02"></div>
+          <div class="slideMySlides sliderFadeIn">
+            <div class="slideNumberText fs-6"></div>
+            <img src="./Imagenes/chimborazo-volcano-andes-mountains-ecuador.jpg" class="sliderImage" alt="slide1">
+            <div class="slideTextCaption fs-6" id="slider01Caption02"></div>
           </div>
-          <div class="slideMySlides fadeIn">
-            <div class="slideNumberText fs-4"></div>
-            <img src="./Imagenes/closest-point-sun-ecuador-volcano-chimborazo.jpg" class="d-block w-100" alt="slide2">
-            <div class="slideTextCaption fs-3" id="slider01Caption03"></div>
+          <div class="slideMySlides sliderFadeIn">
+            <div class="slideNumberText fs-6"></div>
+            <img src="./Imagenes/closest-point-sun-ecuador-volcano-chimborazo.jpg" class="sliderImage" alt="slide2">
+            <div class="slideTextCaption fs-6" id="slider01Caption03"></div>
           </div>
-          <div class="slideMySlides fadeIn">
-            <div class="slideNumberText fs-4"></div>
-            <img src="./Imagenes/dark-sunset-with-beautiful-clouds-ecuador.jpg" class="d-block w-100" alt="slide3">
-            <div class="slideTextCaption fs-3" id="slider01Caption04"></div>
+          <div class="slideMySlides sliderFadeIn">
+            <div class="slideNumberText fs-6"></div>
+            <img src="./Imagenes/dark-sunset-with-beautiful-clouds-ecuador.jpg" class="sliderImage" alt="slide3">
+            <div class="slideTextCaption fs-6" id="slider01Caption04"></div>
           </div>
-          <div class="slideMySlides fadeIn">
-            <div class="slideNumberText fs-4"></div>
-            <img src="./Imagenes/single-vicuna-from-reserve-chimborazo-ecuador.jpg" class="d-block w-100" alt="slide4">
-            <div class="slideTextCaption fs-3" id="slider01Caption05"></div>
+          <div class="slideMySlides sliderFadeIn">
+            <div class="slideNumberText fs-6"></div>
+            <img src="./Imagenes/single-vicuna-from-reserve-chimborazo-ecuador.jpg" class="sliderImage" alt="slide4">
+            <div class="slideTextCaption fs-6" id="slider01Caption05"></div>
           </div>
-          <div class="slideMySlides fadeIn">
-            <div class="slideNumberText fs-4"></div>
-            <img src="./Imagenes/small-hummingbird-resting-some-dry-branches.jpg" class="d-block w-100" alt="slide5">
-            <div class="slideTextCaption fs-3" id="slider01Caption06"></div>
+          <div class="slideMySlides sliderFadeIn">
+            <div class="slideNumberText fs-6"></div>
+            <img src="./Imagenes/small-hummingbird-resting-some-dry-branches.jpg" class="sliderImage" alt="slide5">
+            <div class="slideTextCaption fs-6" id="slider01Caption06"></div>
           </div>
           
           <!-- Next and previous buttons -->
@@ -94,9 +94,7 @@
           <a class="slideNext fs-1" onclick="plusSlides(1)">&#10095;</a>
         </div>
       </div>
-    </div>
-    <div>
-      <div>
+      <div class="sliderDotGroup bg-warning">
         <br>
         <!-- The dots/circles -->
         <div style="text-align:center" id="sliderDots01">
@@ -109,21 +107,21 @@
         </div>
       </div>
       <!--                 INTRO              -->
-      <div class="container-fluid bg-secondary p-1" id="seccion_intro">
-        <div class="container bg-dark">
-      
-          <div class="text-center fs-3 text-primary pt-3 my-2 fw-bold">
-            <h1 id="prf_01_00"></h1>
+      <div class="container-fluid bg-secondary p-3 text-dark scroll-element" id="seccion_intro">
+        <div class="container bg-light">
+
+          <div class="fs-1 font-weight-bold mx-2 px-2 text-center">
+            <p id="prf_01_00"></p>
           </div>
           <div class="center col-lg-9">
-            <p class="p-4 fs-5 text-justify text-white" id="prf_01_01"></p>
+            <p class="p-4 fs-5 text-justify" id="prf_01_01"></p>
           </div>
         </div>
       </div>
       
       
       <!--                PROYECTOS               -->
-      <div class="container-fluid bg-secondary p-3" id="seccion_proyectos">
+      <div class="container-fluid bg-secondary p-3 scroll-element" id="seccion_proyectos">
         <div class="container bg-primary">
           <div class="row">
             <div class="col">
@@ -184,7 +182,7 @@
       
       
       <!--                UBICACION               -->
-      <div class="container-fluid bg-secondary p-3" id="seccion_ubicacion">
+      <div class="container-fluid bg-secondary p-3 text-white scroll-element" id="seccion_ubicacion">
         <div class="container bg-warning">
           <div class="row">
             <div class="col">
@@ -224,7 +222,7 @@
             
       <!--             DEJA TU COMENTARIO             -->
       
-      <div class="container-fluid bg-secondary p-3">
+      <div class="container-fluid bg-secondary p-3 text-white">
         <div class="container bg-primary">
         <div class="row">
           <div class="col">
