@@ -1,0 +1,9 @@
+.lateral-label-main{
+  position:fixed;
+  width:100px;
+  height:40px;
+  background:black;
+  left:0px;
+  top:320px;
+  border-radius: 25px
+}

@@ -45,12 +45,12 @@ function plusSlides(n) {
 
 function loadCaptionText(){
 	
-	captionTxt[0].innerHTML="Ovejas en el páramo del Chimborazo";
-	captionTxt[1].innerHTML="El volcán Cotopaxi";
-	captionTxt[2].innerHTML="El nevado Chimborazo";
-	captionTxt[3].innerHTML="Amanecer en los Andes";
-	captionTxt[4].innerHTML="Una vicuña en el páramo";
-	captionTxt[5].innerHTML="El colibrí";
+	captionTxt[0].innerHTML="Nuestro Gerente";
+	captionTxt[1].innerHTML="Grupo de trabajo";
+	captionTxt[2].innerHTML="En la oficina";
+	// captionTxt[3].innerHTML="Amanecer en los Andes";
+	// captionTxt[4].innerHTML="Una vicuña en el páramo";
+	// captionTxt[5].innerHTML="El colibrí";
 		
 }
 

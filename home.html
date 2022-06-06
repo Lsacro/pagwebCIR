@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/lateral-label.css">
     <title>Fundación Indígena "Rumiñahui" </title>
     <link rel="icon" type="image/x-icon" href="./Logos/favicon.ico">
   </head>
@@ -47,6 +48,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#seccion_ubicacion">Ubicación</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#seccion_donar">Donar</a>
+                  </li>
                 </ul>
               </div>
           </nav>
@@ -56,38 +60,41 @@
     
     <div class="main-section">
       <!-- Slide Imagnes -->
-      <div class="container-fluid bg-warning">
+      <div class="container-fluid mt-3 bg-warning">
         <div class="center col-lg-9" id="slider01">
           <div class="slideMySlides sliderFadeIn">
             <div class="slideNumberText fs-6"></div>
-            <img src="./Imagenes/slider/beautiful-view-chimborazo-mountain-ecuador-during-daytime.jpg" class="sliderImage" alt="slide0">
+            <img src="./Imagenes/slider/gerente01.jpg" class="sliderImage" alt="Gerente">
             <div class="slideTextCaption fs-6" id="slider01Caption01"></div>
           </div>
           <div class="slideMySlides sliderFadeIn">
             <div class="slideNumberText fs-6"></div>
-            <img src="./Imagenes/slider/chimborazo-volcano-andes-mountains-ecuador.jpg" class="sliderImage" alt="slide1">
+            <img src="./Imagenes/slider/reunion01.jpg" class="sliderImage" alt="Nuestro grupo de trabajo">
             <div class="slideTextCaption fs-6" id="slider01Caption02"></div>
           </div>
           <div class="slideMySlides sliderFadeIn">
             <div class="slideNumberText fs-6"></div>
-            <img src="./Imagenes/slider/closest-point-sun-ecuador-volcano-chimborazo.jpg" class="sliderImage" alt="slide2">
+            <img src="./Imagenes/slider/reunion02.jpg" class="sliderImage" alt="slide2">
             <div class="slideTextCaption fs-6" id="slider01Caption03"></div>
           </div>
-          <div class="slideMySlides sliderFadeIn">
-            <div class="slideNumberText fs-6"></div>
-            <img src="./Imagenes/slider/dark-sunset-with-beautiful-clouds-ecuador.jpg" class="sliderImage" alt="slide3">
-            <div class="slideTextCaption fs-6" id="slider01Caption04"></div>
-          </div>
-          <div class="slideMySlides sliderFadeIn">
-            <div class="slideNumberText fs-6"></div>
-            <img src="./Imagenes/slider/single-vicuna-from-reserve-chimborazo-ecuador.jpg" class="sliderImage" alt="slide4">
-            <div class="slideTextCaption fs-6" id="slider01Caption05"></div>
-          </div>
-          <div class="slideMySlides sliderFadeIn">
-            <div class="slideNumberText fs-6"></div>
-            <img src="./Imagenes/slider/small-hummingbird-resting-some-dry-branches.jpg" class="sliderImage" alt="slide5">
-            <div class="slideTextCaption fs-6" id="slider01Caption06"></div>
-          </div>
+          
+          <!-- <div class="slideMySlides sliderFadeIn"> -->
+            <!-- <div class="slideNumberText fs-6"></div> -->
+            <!-- <img src="./Imagenes/slider/dark-sunset-with-beautiful-clouds-ecuador.jpg" class="sliderImage" alt="slide3"> -->
+            <!-- <div class="slideTextCaption fs-6" id="slider01Caption04"></div> -->
+          <!-- </div> -->
+          
+          <!-- <div class="slideMySlides sliderFadeIn"> -->
+            <!-- <div class="slideNumberText fs-6"></div> -->
+            <!-- <img src="./Imagenes/slider/single-vicuna-from-reserve-chimborazo-ecuador.jpg" class="sliderImage" alt="slide4"> -->
+            <!-- <div class="slideTextCaption fs-6" id="slider01Caption05"></div> -->
+          <!-- </div> -->
+          
+          <!-- <div class="slideMySlides sliderFadeIn"> -->
+            <!-- <div class="slideNumberText fs-6"></div> -->
+            <!-- <img src="./Imagenes/slider/small-hummingbird-resting-some-dry-branches.jpg" class="sliderImage" alt="slide5"> -->
+            <!-- <div class="slideTextCaption fs-6" id="slider01Caption06"></div> -->
+          <!-- </div> -->
           
           <!-- Next and previous buttons -->
           <a class="slidePrev fs-1" onclick="plusSlides(-1)">&#10094;</a>
@@ -101,22 +108,81 @@
           <span class="slideDot" onclick="currentSlide(0)"></span>
           <span class="slideDot" onclick="currentSlide(1)"></span>
           <span class="slideDot" onclick="currentSlide(2)"></span>
-          <span class="slideDot" onclick="currentSlide(3)"></span>
-          <span class="slideDot" onclick="currentSlide(4)"></span>
-          <span class="slideDot" onclick="currentSlide(5)"></span>
+          <!-- <span class="slideDot" onclick="currentSlide(3)"></span> -->
+          <!-- <span class="slideDot" onclick="currentSlide(4)"></span> -->
+          <!-- <span class="slideDot" onclick="currentSlide(5)"></span> -->
         </div>
       </div>
       <!--                 INTRO              -->
       <div class="container-fluid bg-secondary p-3 text-dark scroll-element" id="seccion_intro">
         <div class="container bg-light">
 
-          <div class="fs-3 font-weight-bold mx-2 px-2 text-center">
-            <p id="prf_01_00"></p>
+          
+          <div class="row">
+            <div class="center col-lg-9">
+              <div class="fs-3 font-weight-bold mx-2 px-2 text-center">
+                <p id="prf_01_00"></p>
+              </div>
+            </div>
           </div>
-          <div class="center col-lg-9">
-            <p class="p-3 fs-5" id="prf_01_01"></p>
+          
+            
+          <div class="row">
+            <div class="center col-lg-9 p-3">
+          
+              <p class="fs-5" id="prf_01_01"></p>
+              <p class="fs-5" id="prf_02_01"></p>
+              <p class="fs-5" id="prf_02_02"></p>
+              <p class="fs-5" id="prf_02_03"></p>
+              <p class="fs-5" id="prf_02_04"></p>
+              <p class="fs-5" id="prf_02_05"></p>
+              
+            </div>
           </div>
-        </div>
+          
+          <div class="row">
+          
+            <div class="p-3 center col-lg-9 ">
+              <p class="fs-5" id="prf_03_01"></p>
+              <p class="fs-5" id="prf_03_02"></p>
+              <p class="fs-5" id="prf_03_03"></p>
+              <p class="fs-5" id="prf_03_04"></p>
+              
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-2 px-3">
+            </div>
+            <div class="col-lg-4 px-3">
+              <ul class="fs-5 center">
+                <li class="pb-3" id="prf_03_05_01"></li>
+                <li class="pb-3" id="prf_03_05_02"></li>
+                <li class="pb-3" id="prf_03_05_03"></li>
+                <li class="pb-3" id="prf_03_05_04"></li>
+              </ul>
+            </div>
+                  
+            <div class="col-lg-4 px-3">
+              <ul class="fs-5 center">
+                <li class="pb-3" id="prf_03_05_05"></li>
+                <li class="pb-3" id="prf_03_05_06"></li>
+                <li class="pb-3" id="prf_03_05_07"></li>
+                <li class="pb-3" id="prf_03_05_08"></li>
+                <li class="pb-3" id="prf_03_05_09"></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="p-3 center col-lg-9 ">
+              <p class="fs-5" id="prf_03_06"></p>
+              
+            </div>
+          </div>
+          
+          
+          
       </div>
       
       
@@ -124,19 +190,19 @@
       <div class="container-fluid bg-secondary p-3 scroll-element" id="seccion_proyectos">
         <div class="container bg-primary">
           <div class="row">
-            <div class="col">
+            <div class="center col-lg-9 p-3">
               <p class="fs-3 font-weight-bold mx-2 px-2 text-white text-center" id="prf_Proy_01"></p>
             </div>
           </div>
 
           <div class="row">
-            <div class="col">
+            <div class="center col-lg-9 p-3">
                 <p class="fs-3 text-center text-white" id="prf_Proy_02"></p>
             </div>
           </div>
 
           <div class="row">
-            <div class="col">
+            <div class="center col-lg-9 p-3">
                 <p class="fs-5 text-white" id="prf_Proy_03"></p>
                 
                 <ul class="fs-5 center text-white">
@@ -198,21 +264,50 @@
                   <style>.gmap_canvas {overflow:auto;background:none!important;height:700px;width:600px;}</style>
             </div>
             
-            <div class="col-lg-5">
+            <div class="col-lg-6">
               <p class="fs-5">Estamos ubicados en la parroquia Illuman, en las faldas del volcán IMBABURA, a 5 minutos de la ciudad de Otavaolo.</p>
-            
-              <p class="fs-5 m-0 p-0">Altitud </p>
-              <p class="fs-5 m-0 p-0">2500 msnm </p>
-              <br/>
-            
-              <p class="fs-5 m-0 p-0">Clima</p>
-              <p class="fs-5 m-0 p-0">Templado</p>
-              <p class="fs-5 m-0 p-0">Entre 10°C y 24°C</p>
+              <div class="row">
                 
+                <div class="col-lg-6">
+                  <p class="fs-5 m-0 p-0">Altitud </p>
+                  <p class="fs-5 m-0 p-0">2500 msnm </p>
+                  <br/>
+                </div>
+                
+                <div class="col-lg-6">
+                  <p class="fs-5 m-0 p-0">Clima</p>
+                  <p class="fs-5 m-0 p-0">Templado</p>
+                  <p class="fs-5 m-0 p-0">Entre 10°C y 24°C</p>
+                </div>
+              </div>
+              <p class="fs-5 mt-3">Sede: Calle Luis Mejía No. 103 y Eugenio Espejo.</p>
+              <p class="fs-5">Teléfonos: 593 62 946226/378 y 593 987437873.</p>
+              <p class="fs-5">Parroqua San Juan de Ilumán - Cantón Otavalo - Provincia de Imbabura - Ecuador.</p>
             </div>
           </div>
         </div>
       </div>
+      
+      <!--              DONAR               -->
+      
+      <div class="container-fluid bg-secondary p-3 scroll-element text-dark" id="seccion_donar">
+        <div class="container bg-yellow">
+          <div class="row">
+            <div class="col">
+              <p class="fs-3 font-weight-bold mx-2 px-2 text-success">DONAR</p>
+              <p class="fs-5 font-weight-bold mx-2 px-2 text-success">Se parte del cambio, ayudanos a crear oportunidades.</p>
+              <p class="fs-5 font-weight-bold mx-2 px-2 text-success">Comunícate con nosotros o haz tu donación en la cuenta:</p>
+              <p class="fs-5 font-weight-bold mx-2 px-2 text-success">Banco: XXXX</p>
+              <p class="fs-5 font-weight-bold mx-2 px-2 text-success">Cuenta: XXXX</p>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
             
       <!--             DEJA TU COMENTARIO             -->
       
@@ -257,7 +352,18 @@
         </div>
         </div>
       </div>
+      
+  
+  
+  
     </div>
+    
+    <div class="fs1 lateral-label-main">
+      <p class="center text-center pt-2"><a class="text-white font-weight-bold" href="#seccion_donar">DONAR</a></p>
+      <!-- <p class="center text-center text-success font-weight-bold pt-2">DONAR</p> -->
+    
+    </div>
+
     
     
     <!-- PIE DE PAGINA -->
@@ -292,7 +398,8 @@
         </div>
       </footer>
     </div>
-  
+    
+
     <!-- INSERT SCRIPTS -->
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
